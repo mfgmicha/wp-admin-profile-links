@@ -1,7 +1,7 @@
 === Admin Profile Links ===
 Contributors: mfgmicha
 Donate link: https://mfgmicha.de/
-Tags: admin, profile, author
+Tags: admin, profile, author, user
 Requires at least: 4.6
 Tested up to: 6.8
 Requires PHP: 8.0
