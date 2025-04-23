@@ -7,7 +7,7 @@
  * Author URI:      https://mfgmicha.de/
  * Text Domain:     admin-profile-links
  * Domain Path:     /languages
- * Version:         0.1.1
+ * Version:         1.0.0
  * License:         GPLv2 or later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
  */
