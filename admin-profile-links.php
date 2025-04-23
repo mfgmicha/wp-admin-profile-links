@@ -16,7 +16,7 @@ class Admin_Profile_Links  {
     public static function add_profile_links( WP_Admin_Bar $wp_admin_bar ): void {
         $profile_link_data = [
             'id'    => 'apl_show_profile_link',
-            'title' => __( 'View User', 'default' ),
+            'title' => esc_html__( 'View User', 'default' ),
             'href'  => get_author_posts_url( get_current_user_id() ),
             'meta'  => [
                 'target' => '_self',
