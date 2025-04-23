@@ -2,10 +2,10 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Admin Profile Links 0.1.1\n"
+"Project-Id-Version: Admin Profile Links 1.0.0\n"
 "Report-Msgid-Bugs-To: "
-"https://wordpress.org/support/plugin/admin-profile-links\n"
-"POT-Creation-Date: 2025-04-23 18:01:37+00:00\n"
+"https://wordpress.org/support/plugin/wp-admin-profile-links\n"
+"POT-Creation-Date: 2025-04-23 20:58:35+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,6 +24,10 @@ msgstr ""
 "X-Poedit-Bookmarks: \n"
 "X-Textdomain-Support: yes\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin-profile-links.php:22
+msgid "View User"
+msgstr ""
 
 #. Plugin Name of the plugin/theme
 msgid "Admin Profile Links"
