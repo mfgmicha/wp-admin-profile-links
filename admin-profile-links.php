@@ -2,16 +2,17 @@
 /**
  * Plugin Name:     Admin Profile Links
  * Plugin URI:      https://github.com/mfgmicha/wp-admin-profile-link
- * Description:     Add links in the admin bar to your author page.
- * Author:          Micha Krapp
+ * Description:     Adds links to the current author page in the admin bar.
+ * Author:          Micha Krapp <micha@mfgmicha.de>
  * Author URI:      https://mfgmicha.de/
  * Text Domain:     admin-profile-links
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.1.1
+ * License:         GPLv2 or later
  */
 
 class Admin_Profile_Links  {
-    public static function add_profile_links( \WP_Admin_Bar $wp_admin_bar ) {
+    public static function add_profile_links( WP_Admin_Bar $wp_admin_bar ): void {
         $profile_link_data = [
             'id'    => 'apl_show_profile_link',
             'title' => __( 'View User', 'default' ),

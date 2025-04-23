@@ -5,11 +5,11 @@ Tags: admin, profile, author
 Requires at least: 4.5
 Tested up to: 6.8
 Requires PHP: 8.0
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Adds links to the current author page to the admin bar.
+Adds links to the current author page in the admin bar.
 
 == Description ==
 
@@ -49,13 +49,19 @@ e.g.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Why this plugin? =
 
-An answer to that question.
+If you edit the user profile from another user, the admin bar shows the "View User" link.
+But there is no such link for your own user.
 
-= What about foo bar? =
+= Which links get added? =
 
-Answer to foo bar dilemma.
+Links to the current author's page gets added.
+
+= Where does these links get added =
+
+1. In the user actions dropdown (admin bar on the right side)
+2. In the admin bar, like for other users, but when you edit your profile / own user (the "profile.php" admin page)
 
 == Screenshots ==
 
@@ -68,19 +74,12 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 == Changelog ==
 
 = 1.0 =
-* A change since the previous version.
-* Another change.
-
-= 0.1.0 =
-* Initial plugin init.
+* Initial plugin release.
 
 == Upgrade Notice ==
 
 = 1.0 =
 Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
 
 == Arbitrary section ==
 
