@@ -38,6 +38,13 @@ class Admin_Profile_Links  {
                 ]
             )
         );
+
+        // Re-add the logout node, so that it is the last item.
+        $logout_node = $wp_admin_bar->get_node( 'logout' );
+        if ( $logout_node ) {
+            $wp_admin_bar->remove_node( 'logout' );
+            $wp_admin_bar->add_node( $logout_node );
+        }
     }
 }
 
