@@ -71,7 +71,7 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 * A change since the previous version.
 * Another change.
 
-= 0.1.o =
+= 0.1.0 =
 * Initial plugin init.
 
 == Upgrade Notice ==
