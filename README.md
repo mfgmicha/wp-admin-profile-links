@@ -1,6 +1,6 @@
+[![Run grunt tasks](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml)
 # Admin Profile Links #
 **Contributors:** [mfgmicha](https://profiles.wordpress.org/mfgmicha/)  
-**Donate link:** https://mfgmicha.de/  
 **Tags:** admin, profile, author, user  
 **Requires at least:** 4.6  
 **Tested up to:** 6.8  
@@ -73,4 +73,3 @@ For more releases see [GitHub](https://github.com/mfgmicha/wp-admin-profile-link
 
 ### 1.0 ###
 Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-[![Run grunt tasks](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml)
