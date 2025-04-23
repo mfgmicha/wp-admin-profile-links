@@ -9,6 +9,8 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
@@ -16,8 +18,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Build
-      permissions:
-        contents: write
       run: |
         npm install
         grunt
