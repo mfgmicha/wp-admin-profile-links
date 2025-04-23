@@ -41,4 +41,4 @@ class Admin_Profile_Links  {
     }
 }
 
-add_action( 'admin_bar_menu', [ Admin_Profile_Links::class, 'add_profile_links' ], 99 );
+add_action( 'admin_bar_menu', [ Admin_Profile_Links::class, 'add_profile_links' ], 80 );
