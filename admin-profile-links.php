@@ -12,6 +12,9 @@
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
  */
 
+// Exit if accessed directly
+defined( 'ABSPATH' ) || exit;
+
 class Admin_Profile_Links  {
     public static function add_profile_links( WP_Admin_Bar $wp_admin_bar ): void {
         $profile_link_data = [
