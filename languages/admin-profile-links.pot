@@ -1,11 +1,11 @@
-# Copyright (C) 2025 Micha Krapp
-# This file is distributed under the same license as the Admin Profile Links package.
+# Copyright (C) 2025 Micha Krapp <micha@mfgmicha.de>
+# This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Admin Profile Links 0.1.0\n"
+"Project-Id-Version: Admin Profile Links 0.1.1\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/admin-profile-links\n"
-"POT-Creation-Date: 2025-04-23 17:03:02+00:00\n"
+"POT-Creation-Date: 2025-04-23 18:01:37+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,10 +25,6 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
 
-#: admin-profile-links.php:17
-msgid "View User"
-msgstr ""
-
 #. Plugin Name of the plugin/theme
 msgid "Admin Profile Links"
 msgstr ""
@@ -38,11 +34,11 @@ msgid "https://github.com/mfgmicha/wp-admin-profile-link"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Add links in the admin bar to your author page."
+msgid "Adds links to the current author page in the admin bar."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Micha Krapp"
+msgid "Micha Krapp <micha@mfgmicha.de>"
 msgstr ""
 
 #. Author URI of the plugin/theme
