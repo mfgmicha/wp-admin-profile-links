@@ -18,9 +18,6 @@ class Admin_Profile_Links  {
             'id'    => 'apl_show_profile_link',
             'title' => esc_html__( 'View User', 'default' ),
             'href'  => get_author_posts_url( get_current_user_id() ),
-            'meta'  => [
-                'target' => '_self',
-            ],
         ];
 
         // Add link to show user when on profile edit page.
