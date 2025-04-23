@@ -14,6 +14,7 @@ Adds links to the current author page in the admin bar.
 == Description ==
 
 Adds links to the current author page in the admin bar.
+For more information see FAQ below.
 
 == Frequently Asked Questions ==
 
