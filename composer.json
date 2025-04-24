@@ -20,7 +20,6 @@
         }
     },
     "scripts": {
-      "test": "vendor/bin/phpunit",
       "wpcs":  "vendor/bin/phpcs",
       "make-pot": "wp i18n make-pot . languages/admin-profile-links.pot --slug=admin-profile-links --domain=admin-profile-links --exclude=node_modules,vendor,test"
     }
