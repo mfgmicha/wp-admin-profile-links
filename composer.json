@@ -1,0 +1,28 @@
+{
+    "name": "mfgmicha/admin-profile-links",
+    "description": "Adds links to the current author page in the admin bar.",
+    "type": "wordpress-plugin",
+    "version": "1.0.0",
+    "autoload": {
+    },
+    "authors": [
+        {
+            "name": "Micha Krapp",
+            "email": "micha@mfgmicha.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+      "test": "vendor/bin/phpunit",
+      "wpcs":  "vendor/bin/phpcs",
+      "make-pot": "wp i18n make-pot . languages/admin-profile-links.pot --slug=admin-profile-links --domain=admin-profile-links --exclude=node_modules,vendor,test"
+    }
+}

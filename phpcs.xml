@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    name="admin-profile-links"
+    xsi:noNamespaceSchemaLocation="./vendor/squizlabs/php_codesniffer/phpcs.xsd">
+
+	<!--
+	#############################################################################
+	COMMAND LINE ARGUMENTS
+	https://github.com/PHPCSStandards/PHP_CodeSniffer/wiki/Annotated-ruleset.xml
+	#############################################################################
+	-->
+
+	<!-- Scan all files. -->
+	<file>.</file>
+
+	<!-- Only check PHP files. -->
+	<arg name="extensions" value="php"/>
+
+	<!-- Show progress, show the error codes for each message (source). -->
+	<arg value="sp"/>
+
+	<!-- Strip the filepaths down to the relevant bit. -->
+	<arg name="basepath" value="./"/>
+
+	<!-- Check up to 8 files simultaneously. -->
+	<arg name="parallel" value="8"/>
+
+    <!-- Show color -->
+    <arg name="colors"/>
+
+	<!-- Cache the results between runs. -->
+	<arg name="cache" value="./.cache/phpcs.cache"/>
+
+    <exclude-pattern>.cache/</exclude-pattern>
+    <exclude-pattern>.github/</exclude-pattern>
+    <exclude-pattern>bin/</exclude-pattern>
+    <exclude-pattern>languages/</exclude-pattern>
+    <exclude-pattern>node_modules/</exclude-pattern>
+    <exclude-pattern>tests/</exclude-pattern>
+    <exclude-pattern>vendor/</exclude-pattern>
+
+	<!--
+	#############################################################################
+	USE THE WORDPRESS RULESET
+	#############################################################################
+	-->
+
+	<rule ref="WordPress" />
+	<!-- Disable rules for the /tests/
+	<rule ref="WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound">
+		<exclude-pattern>/tests/*</exclude-pattern>
+	</rule>
+	-->
+</ruleset>
