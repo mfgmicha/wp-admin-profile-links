@@ -18,4 +18,4 @@
 defined( 'ABSPATH' ) || exit;
 
 // Load main class.
-require_once './src/class-admin-profile-links.php';
+require_once plugin_dir_path( __FILE__ ) . 'src/class-admin-profile-links.php';
