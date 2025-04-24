@@ -2,7 +2,7 @@
     "name": "mfgmicha/admin-profile-links",
     "description": "Adds links to the current author page in the admin bar.",
     "type": "wordpress-plugin",
-    "version": "1.0.0",
+    "license": "LGPL-2.0-or-later",
     "autoload": {
     },
     "authors": [
