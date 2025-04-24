@@ -44,19 +44,19 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Installation ==
 
-=== Standard way ===
+= Standard way =
 
 1. In your WordPress admin go to Plugins > add new
 2. Search for the plugin name "Admin Profile Links"
 3. Install and activate the plugin
 
-=== Upload via file ===
-1. Get the full plugin as zip-file e.g. via the "Download" button on the wp.org plugin page.
+= Upload via file =
+1. Get the plugin as zip-file e.g. via the "Download" button on the wp.org plugin page.
 2. In your WordPress admin go to Plugins > add new > upload plugin
 3. Select the zip-file and upload it
 4. Activate the plugin
 
-=== Composer ===
+= Composer =
 
 You can also add this plugin with composer via [wpackagist.org](https://wpackagist.org/search?q=admin-profile-links)
 
@@ -67,7 +67,7 @@ Latest release:
 = 1.0 =
 * Initial plugin release.
 
-For more releases see [GitHub](https://github.com/mfgmicha/wp-admin-profile-links/releases)
+For more releases and source code see [GitHub](https://github.com/mfgmicha/wp-admin-profile-links/)
 
 == Upgrade Notice ==
 
