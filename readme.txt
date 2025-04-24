@@ -18,7 +18,7 @@ For more information see FAQ below.
 
 == Frequently Asked Questions ==
 
-= Why this plugin? =
+= Why do I need this plugin? =
 
 If you edit the user profile from another user, the admin bar shows the "View User" link.
 But there is no such link for your own user.
