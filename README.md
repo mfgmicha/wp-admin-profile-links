@@ -1,7 +1,7 @@
-[![Deploy to WordPress.org](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy.yml)
-[![Check Deploy to WordPress.org](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy-check.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy-check.yml)
-[![Check PHP code quality](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/code-quality.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/code-quality.yml)
-[![Regenerate readme.md](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml)
+[![Deploy to WordPress.org](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy.yml)  
+[![Check Deploy to WordPress.org](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy-check.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy-check.yml)  
+[![Check PHP code quality](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/code-quality.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/code-quality.yml)  
+[![Regenerate readme.md](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml)  
 # Admin Profile Links #
 **Contributors:** [mfgmicha](https://profiles.wordpress.org/mfgmicha/)  
 **Donate link:** https://mfgmicha.de  
@@ -29,7 +29,7 @@ But there is no such link for your own user.
 
 ### Which links get added? ###
 
-Links to the current author's page gets added.
+Links to the current author's page.
 
 ### Where does these links get added ###
 
