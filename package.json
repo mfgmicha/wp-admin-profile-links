@@ -1,18 +1,14 @@
 {
-  "name": "admin-profile-links",
+  "name": "@mfgmicha/admin-profile-links",
   "version": "1.0.0",
   "main": "Gruntfile.js",
-  "author": "YOUR NAME HERE",
+  "author": "Micha Krapp <micha@mfgmicha.de>",
   "scripts": {
     "start": "grunt default",
-    "readme": "grunt readme",
-    "i18n": "grunt i18n"
+    "readme": "grunt readme"
   },
   "devDependencies": {
     "grunt": "^1.6.1",
-    "grunt-wp-i18n": "^1.0.3",
     "grunt-wp-readme-to-markdown": "^2.1.0"
-  },
-  "dependencies": {
   }
 }
