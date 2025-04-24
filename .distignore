@@ -10,5 +10,6 @@
 composer.lock
 Gruntfile.js
 package.json
-package.lock
+package-lock.json
+phpcs.xml
 README.md

@@ -9,8 +9,10 @@ jobs:
     name: Check deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: WordPress Plugin Deploy
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: WordPress Plugin Deploy Check
         uses: 10up/action-wordpress-plugin-deploy@stable
         with:
           dry-run: true
