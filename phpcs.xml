@@ -45,7 +45,10 @@
 	#############################################################################
 	-->
 
-	<rule ref="WordPress" />
+	<rule ref="WordPress">
+        <exclude name="Universal.Arrays.DisallowShortArraySyntax.Found"/>
+        <exclude name="Squiz.Commenting.FileComment.Missing"/>
+    </rule>
 	<!-- Disable rules for the /tests/
 	<rule ref="WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound">
 		<exclude-pattern>/tests/*</exclude-pattern>

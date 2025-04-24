@@ -4,6 +4,7 @@
     "type": "wordpress-plugin",
     "license": "LGPL-2.0-or-later",
     "autoload": {
+        "Mfgmicha\\Admin_Profile_Links": "./src"
     },
     "authors": [
         {
@@ -13,7 +14,8 @@
     ],
     "minimum-stability": "stable",
     "require-dev": {
-        "wp-coding-standards/wpcs": "^3.0"
+        "wp-coding-standards/wpcs": "^3.0",
+        "squizlabs/php_codesniffer": "@stable"
     },
     "config": {
         "allow-plugins": {
