@@ -38,11 +38,11 @@ jobs:
             ${{ runner.os }}-php-
 
       - name: Install dependencies
-        run: composer install --prefer-dist --no-progress
+        run: composer install --prefer-dist
 
-      - name: Build plugin # Remove or modify this step as needed
-        run: |
-          composer run make-pot
+      #- name: Build plugin # Remove or modify this step as needed
+      #  run: |
+      #    composer run make-pot
 
       - name: Generate zip
         uses: 10up/action-wordpress-plugin-build-zip@stable

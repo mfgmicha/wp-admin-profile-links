@@ -30,7 +30,7 @@ jobs:
             ${{ runner.os }}-php-
 
       - name: Install dependencies
-        run: composer install --prefer-dist --no-progress
+        run: composer install --prefer-dist
 
       - name: Run code sniffer
         run: composer run-script wpcs

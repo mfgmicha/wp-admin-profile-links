@@ -12,7 +12,8 @@
     "minimum-stability": "stable",
     "require-dev": {
         "wp-coding-standards/wpcs": "^3.0",
-        "squizlabs/php_codesniffer": "@stable"
+        "squizlabs/php_codesniffer": "@stable",
+        "wp-cli/wp-cli-bundle": "^2.11"
     },
     "config": {
         "allow-plugins": {
@@ -21,6 +22,6 @@
     },
     "scripts": {
       "wpcs":  "vendor/bin/phpcs",
-      "make-pot": "wp i18n make-pot . languages/admin-profile-links.pot --slug=admin-profile-links --domain=admin-profile-links --exclude=node_modules,vendor,test"
+      "make-pot": "vendor/bin/wp i18n make-pot . languages/admin-profile-links.pot --slug=admin-profile-links --domain=admin-profile-links --exclude=node_modules,vendor,test"
     }
 }
