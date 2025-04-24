@@ -1,8 +1,8 @@
 {
-  "name": "admin-profile-links",
+  "name": "@mfgmicha/admin-profile-links",
   "version": "1.0.0",
   "main": "Gruntfile.js",
-  "author": "YOUR NAME HERE",
+  "author": "Micha Krapp <micha@mfgmicha.de>",
   "scripts": {
     "start": "grunt default",
     "readme": "grunt readme",
