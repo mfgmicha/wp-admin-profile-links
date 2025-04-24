@@ -1,6 +1,7 @@
 [![Run grunt tasks](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml)
 # Admin Profile Links #
 **Contributors:** [mfgmicha](https://profiles.wordpress.org/mfgmicha/)  
+**Donate link:** https://mfgmicha.de/  
 **Tags:** admin, profile, author, user  
 **Requires at least:** 4.6  
 **Tested up to:** 6.8  
