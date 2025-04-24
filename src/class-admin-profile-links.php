@@ -1,7 +1,5 @@
 <?php
 
-namespace Mfgmicha\Admin_Profile_Links;
-
 /**
  * Main class.
  */
