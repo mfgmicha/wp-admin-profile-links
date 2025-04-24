@@ -34,6 +34,3 @@ jobs:
 
       - name: Run code sniffer
         run: composer run-script wpcs
-
-      #- name: Run test suite
-      #  run: composer run-script test
