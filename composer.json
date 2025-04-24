@@ -3,9 +3,6 @@
     "description": "Adds links to the current author page in the admin bar.",
     "type": "wordpress-plugin",
     "license": "LGPL-2.0-or-later",
-    "autoload": {
-        "Mfgmicha\\Admin_Profile_Links": "./src"
-    },
     "authors": [
         {
             "name": "Micha Krapp",
