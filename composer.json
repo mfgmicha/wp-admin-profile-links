@@ -22,6 +22,10 @@
     },
     "scripts": {
       "wpcs":  "vendor/bin/phpcs",
-      "make-pot": "vendor/bin/wp i18n make-pot . languages/admin-profile-links.pot --slug=admin-profile-links --domain=admin-profile-links --exclude=node_modules,vendor,test"
+      "make-pot": "vendor/bin/wp i18n make-pot . languages/admin-profile-links.pot --slug=admin-profile-links --domain=admin-profile-links --exclude=node_modules,vendor,test",
+      "cli-prepare": {
+        "add-dist": "vendor/bin/wp package install wp-cli/dist-archive-command"
+      },
+      "zip": "vendor/bin/wp dist-archive ."
     }
 }
