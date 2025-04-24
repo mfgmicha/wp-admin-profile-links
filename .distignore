@@ -1,0 +1,14 @@
+/.cache
+/.git
+/.github
+/.wordpress-org
+/node_modules
+/vendor
+
+.distignore
+.gitignore
+composer.lock
+Gruntfile.js
+package.json
+package.lock
+README.md
