@@ -9,12 +9,44 @@ jobs:
     name: Check deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: WordPress Plugin Deploy
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: WordPress Plugin Deploy Check
         uses: 10up/action-wordpress-plugin-deploy@stable
         with:
           dry-run: true
         env:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SLUG: admin-profile-links # optional, remove if GitHub repo name matches SVN slug, including capitalization
+
+  build:
+    name: Build release zip
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Cache Composer packages
+        id: composer-cache
+        uses: actions/cache@v3
+        with:
+          path: vendor
+          key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-php-
+
+      - name: Install dependencies
+        run: composer install --prefer-dist --no-progress
+
+      - name: Build plugin # Remove or modify this step as needed
+        run: |
+          composer run make-pot
+
+      - name: Generate zip
+        uses: 10up/action-wordpress-plugin-build-zip@stable
+        with:
+          retention-days: 1 # Optional; defaults to 5
+        env:
           SLUG: admin-profile-links # optional, remove if GitHub repo name matches SVN slug, including capitalization
