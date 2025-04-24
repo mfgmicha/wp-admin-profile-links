@@ -5,8 +5,8 @@ on:
   pull_request:
     branches: [ "main" ]
 jobs:
-  tag:
-    name: New tag
+  check:
+    name: Check deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
