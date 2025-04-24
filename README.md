@@ -1,7 +1,10 @@
-[![Run grunt tasks](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml)
+[![Deploy to WordPress.org](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy.yml)
+[![Check Deploy to WordPress.org](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy-check.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy-check.yml)
+[![Check PHP code quality](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/code-quality.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/code-quality.yml)
+[![Regenerate readme.md](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml)
 # Admin Profile Links #
 **Contributors:** [mfgmicha](https://profiles.wordpress.org/mfgmicha/)  
-**Donate link:** https://mfgmicha.de/  
+**Donate link:** https://mfgmicha.de  
 **Tags:** admin, profile, author, user  
 **Requires at least:** 4.6  
 **Tested up to:** 6.8  
@@ -19,7 +22,7 @@ For more information see FAQ below.
 
 ## Frequently Asked Questions ##
 
-### Why this plugin? ###
+### Why do I need this plugin? ###
 
 If you edit the user profile from another user, the admin bar shows the "View User" link.
 But there is no such link for your own user.
