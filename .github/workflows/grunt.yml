@@ -24,5 +24,8 @@ jobs:
         git config --global user.name '${{secrets.GIT_USERNAME}}'
         git config --global user.email '${{secrets.GIT_EMAIL}}'
         sed -i '1i [![Regenerate readme.md](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/grunt.yml) README.md
+        sed -i '1i [![Check PHP code quality](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/code-quality.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/code-quality.yml) README.md
+        sed -i '1i [![Check Deploy to WordPress.org](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy-check.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy-check.yml) README.md
+        sed -i '1i [![Deploy to WordPress.org](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy.yml/badge.svg)](https://github.com/mfgmicha/wp-admin-profile-links/actions/workflows/deploy.yml) README.md
         git commit -am "Regenerate readme.md"
         git push
