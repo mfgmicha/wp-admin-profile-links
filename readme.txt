@@ -25,7 +25,7 @@ But there is no such link for your own user.
 
 = Which links get added? =
 
-Links to the current author's page gets added.
+Links to the current author's page.
 
 = Where does these links get added =
 
